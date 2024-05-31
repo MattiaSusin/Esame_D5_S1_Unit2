@@ -356,15 +356,18 @@ li{
 }
 
 .laterale{
-  width:auto;
+  /* width:auto;
   height:auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: inline-block;
+  margin: 2px;
+  margin-right: 
 
 } 
 
-#b5{
+/* #b5{
   height: 5px;
 }
 #b6{
@@ -391,3 +394,4 @@ li{
 #b13{
   height: 50px;
 }
+ */
