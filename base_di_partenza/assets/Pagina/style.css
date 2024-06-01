@@ -327,7 +327,9 @@ li{
   padding-left: 250px;
   padding-right: 250px;
   margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 50px;
 } 
 .inline{
   display: flex;
@@ -369,6 +371,8 @@ li{
 
 h4{
   font-weight: 500;
+  padding-top: 2.5px;
+  padding-left: 8px;
 }
 
 h5{
@@ -380,6 +384,10 @@ h5{
 }
 .articoli7{
   /* border: 2px solid #181919; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 10px
+  ;
   
 }
 .order{
@@ -398,4 +406,48 @@ h5{
 .pBott{
   width: 100px;
   height: 2px;
+}
+.botArt{
+  background: #f2f2f2;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -ms-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -o-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 0px 1px 3px #f2f2f2;
+  -moz-box-shadow: 0px 1px 3px #f2f2f2;
+  box-shadow: 0px 1px 3px #f2f2f2;
+  font-family: Arial;
+  color: #6b6b6b;
+  font-size: 15px;
+  padding: 3px 11px 5px 9px;
+  border: solid #f2f2f2 2px;
+  text-decoration: none;
+}
+
+.botArt:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+}
+
+.imgRad{
+border-radius: 50%;
+}
+
+.svg{
+  display: flex;
+  flex-direction: row;
+}
+
+ul{
+  translate: 0px -4px;
+}
+
+.lastSvg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
