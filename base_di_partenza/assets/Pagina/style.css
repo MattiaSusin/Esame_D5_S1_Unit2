@@ -283,7 +283,11 @@ padding: 10px;
 .number{
 
 }
+.colonna{
+  display: flex;
+  flex-direction: column !important;
 
+}
 .svgArrow{
   display: flex;
   align-items: flex-end;
@@ -312,12 +316,18 @@ h6{
   padding-top:15px ;
   width: 425px;
   height: 103px;
-  gap: 10px 10px !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.totCont{
+  display: flex;
+  flex-direction: column;
 }
 
 .title6{
-  display: flex;
-  flex-direction:row;
+   display: flex;
+  flex-direction:row; 
 
 }
 
