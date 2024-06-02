@@ -162,8 +162,7 @@ body {
   }
 }
 /* -------------------------------NAVBAR-------------------------------------------------- */
-body {
-}
+
 
 .navBar {
   width: 1920px;
@@ -250,7 +249,7 @@ padding: 10px;
   font-family: ;
   font-size: x-large;
 }
-/* -------------------------------LEADING------------------------------------------------ */
+/* -------------------------------LEADING FINISH------------------------------------------------ */
 .article6 {
     height: 380px;;
     /* border: 5px solid black;  */
@@ -278,7 +277,18 @@ padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 10px;
   
+}
+.number{
+
+}
+
+.svgArrow{
+  display: flex;
+  align-items: flex-end;
+  translate: 0px 23px;
+
 }
 h3 {
   margin-left: 45px;
@@ -290,19 +300,39 @@ h6{
 }
 
 .articleDown {
+  width: 1277px;
+  height: 230px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 50px;
-}
+  translate: 41px 22px;}
 
 .articles {
-  /* border: 5px solid black; */
+   border: 5px solid black; 
   padding-top:15px ;
-  width: 405px;
+  width: 425px;
   height: 103px;
+  gap: 10px 10px !important;
 }
 
+.title6{
+  display: flex;
+  flex-direction:row;
+
+}
+
+.title6 > p > ul{
+  translate: 10px 0px;
+  padding-left: 10px;
+}
+
+.articles > p {
+  padding-top: 10px;
+}
+
+ul{
+  padding-top: 10px;
+}
 li{
     display: inline;
     color:#848484 ;
@@ -466,6 +496,5 @@ ul{
   .pBott2{
     display: flex;
     flex-direction: row;
-
+    width: 10px;
   }
-  
